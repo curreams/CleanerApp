@@ -18,16 +18,21 @@ Cleaner App was created with the objective of helping the cleaners in the Dockla
 * User-based system.
 * Monthly reports.
 
+### Demo
+
+A Demo of the application is available at
+
+http://phplaravel-150690-432108.cloudwaysapps.com/
+
 ### Build With
 
-
-* [Laravel 5.6](https://laravel.com/docs/5.6)
+* [Laravel 5.5](https://laravel.com/docs/5.5)
 * [Boostrap 3.3](https://getbootstrap.com/docs/3.3/)	
 * [Laravel Collective 5.4](https://laravelcollective.com/docs/5.0/html)
 
 ### License
 
-The Cleaner App is open-sourced software licensed under the GNU General Public License terms.
+The Cleaner App is open-sourced software licensed under the MIT.
 
 ### Version
 
