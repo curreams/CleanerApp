@@ -19,4 +19,8 @@ class Flat extends Model
     public static function getFlatById($id){
     	return Flat::where('id','=',$id)->get();
     }
+
+    public function registers(){
+        return $this->hasMany(Register::Class);
+    }
 }

@@ -17,4 +17,8 @@ class Cleaner extends Model
     protected $fillable = [
         'name', 'nationality',
     ];
+
+    public function registers(){
+    	return $this->hasMany(Register::class);
+    }	
 }

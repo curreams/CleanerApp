@@ -20,7 +20,6 @@ Cleaner App was created with the objective of helping the cleaners in the Dockla
 
 ### Build With
 
-Cleaner App was developed using the next tools:
 
 * [Laravel 5.6](https://laravel.com/docs/5.6)
 * [Boostrap 3.3](https://getbootstrap.com/docs/3.3/)	
