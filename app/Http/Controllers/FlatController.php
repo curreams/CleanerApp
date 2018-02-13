@@ -17,6 +17,10 @@ class FlatController extends Controller
 
     public function store(Request $request){
     	
+        $this->validate($request, [
+            'Number' => 'required',
+            'Dimension' => 'required'
+        ]);
     	
     	\Cleaning\Flat::create([
     		'number'=> $request['Number'],
@@ -35,5 +39,7 @@ class FlatController extends Controller
             return response()->json($flat);
         }
     }
+
+
     //
 }

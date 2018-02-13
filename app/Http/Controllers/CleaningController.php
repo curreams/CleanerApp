@@ -16,7 +16,10 @@ class CleaningController extends Controller
     }
 
     public function store(Request $request){
-    	
+    	$this->validate($request, [
+            'Name' => 'required',
+            'Nationality' => 'required'
+        ]);
     	
     	\Cleaning\Cleaner::create([
     		'name'=> $request['Name'],
