@@ -14,29 +14,24 @@
 				<div class="logo">
 					<p>Create Work Register</p>
 				</div>
-
-		</div>
-		<div class="news">
-				
-		<div class="form-group">
-				{!! Form::label("Cleaner Name") !!}
-		 		{!! Form::select('Name', $names, null, ['class'=>'form-control']) !!}
-		</div>
-		 <div class="form-group">
-		 		{!! Form::label("Flat") !!}
-		 		{!! Form::select('Flat', $flats, null,[ 'class'=>'form-control']) !!}
-		 </div>
-		 <div class="form-group">
-		  	{!! Form::label("Date") !!}
-		 	{!! Form::date('Date', \Carbon\Carbon::now(),['class'=>'form-control']); !!}
-
-		 </div>
+			</div>
+			<div class="news">
+				<div class="form-group">
+					{!! Form::label("Cleaner Name") !!}
+		 			{!! Form::select('Name', $names, null, ['class'=>'form-control']) !!}
+				</div>
+		 		<div class="form-group">
+		 			{!! Form::label("Flat") !!}
+		 			{!! Form::select('Flat', $flats, null,[ 'class'=>'form-control']) !!}
+		 		</div>
+		 		<div class="form-group">
+		  		{!! Form::label("Date") !!}
+		 		{!! Form::date('Date', \Carbon\Carbon::now(),['class'=>'form-control']); !!}				
+				</div>
 				{!! Form::submit("Save", ['class'=>'btn btn-primary']) !!}
-				
+		 	</div>	
+
 		</div>
-		
-
-
 {!! Form::close() !!}
 
-@stop()
+@endsection()

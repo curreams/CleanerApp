@@ -20,4 +20,4 @@
 		</tbody>
 		@endforeach
 	</table>
-@stop()
+@endsection()
