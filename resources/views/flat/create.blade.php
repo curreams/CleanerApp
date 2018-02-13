@@ -10,7 +10,7 @@
 			@endforeach
 		</div>
 	@endif
-{!! Form::open(['route'=>'flat.store', 'method'=>'POST']) !!}
+	{!! Form::open(['route'=>'flat.store', 'method'=>'POST']) !!}
 	<div class="form-group">
 		{!! Form::label("Number") !!}
 		{!! Form::text("Number", null, ['class'=>'form-control', 'placeholder'=>'Insert flat number']) !!}
